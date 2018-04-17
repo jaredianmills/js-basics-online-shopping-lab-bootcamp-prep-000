@@ -19,7 +19,6 @@ function viewCart() {
   var inYour = 'In your cart, you have';
   var viewArray = [];
   var itemsAndPrices = ` ${cart[i][`itemName`]} at $${cart[i][`itemPrice`]}`;
-  var lastItemAndPrice = ` and ${cart[i][`itemName`]} at $${cart[i][`itemPrice`]}`;
   if (cart.length = 0) {
     return "Your shopping cart is empty."
   } else {
@@ -34,3 +33,7 @@ addToCart('hat')
 addToCart('tea')
 
 console.log(viewCart())
+
+
+
+  var lastItemAndPrice = ` and ${cart[i][`itemName`]} at $${cart[i][`itemPrice`]}`;
