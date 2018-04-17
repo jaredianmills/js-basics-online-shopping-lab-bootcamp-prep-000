@@ -29,4 +29,4 @@ addToCart('dog')
 addToCart('cat')
 addToCart('wine')
 
-console.log(viewCart())
+console.log(cart)
