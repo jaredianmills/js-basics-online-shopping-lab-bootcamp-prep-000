@@ -27,6 +27,10 @@ function viewCart() {
   }
     if (viewArray.length === 1) {
       return `${inYour}${viewArray}.`
+    } else {
+      var lastItem = viewArray.pop()
+      return `${inYour}${viewArray}, and${lastItem}.`
+
     }
     }
 }
@@ -36,6 +40,3 @@ addToCart('hat')
 
 
 console.log(viewCart())
-
-var lastItem = viewArray.pop()
-return `${inYour}${viewArray}, and${lastItem}.`
