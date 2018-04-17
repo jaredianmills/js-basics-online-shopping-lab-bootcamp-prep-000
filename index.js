@@ -72,3 +72,4 @@ addToCart('cup')
 console.log(cart)
 
 removeFromCart('egg')
+console.log(cart)
