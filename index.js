@@ -44,4 +44,4 @@ function total() {
   return sum;
 }
 
-function removeFromCart(itemName)
+function removeFromCart(item)
