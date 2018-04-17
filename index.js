@@ -25,6 +25,7 @@ function viewCart() {
         var itemsAndPrices = ` ${cart[i]['itemName']} at $${cart[i]['itemPrice']}`;
         viewArray.push(`${itemsAndPrices}`)
   }
+    var lastItem = viewArray.pop()
     return `${inYour}${viewArray}.`
   }
 }
