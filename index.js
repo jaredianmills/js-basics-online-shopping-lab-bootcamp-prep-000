@@ -24,8 +24,10 @@ function viewCart() {
     return "Your shopping cart is empty."
   } else if (cart.length = 1) {
       for (let i = 0; i < cart.length; i++) {
-        viewArray.push(itemsAndPrices)
+        viewArray.push(${itemsAndPrices})
   }
     return `${inYour}${itemsAndPrices}.`
-  } else if (cart.length > 1)
+  } else if (cart.length > 1) {
+
+  }
 }
