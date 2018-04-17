@@ -19,7 +19,7 @@ function viewCart() {
   var inYour = 'In your cart, you have';
   var viewArray = [];
   for (let i = 0; i < cart.length; i++) {
-    var itemsAndPrices = ` ${cart[i][`itemName`]} at ${cart[i][`itemPrice`]}}`;
+    var itemsAndPrices = ` ${cart[i][`itemName`]} at ${cart[i][`itemPrice`]}`;
     viewArray.push(itemsAndPrices)
   }
   return `${inYour}${viewArray}`
