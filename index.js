@@ -33,7 +33,3 @@ addToCart('hat')
 addToCart('tea')
 
 console.log(viewCart())
-
-
-
-  var lastItemAndPrice = ` and ${cart[i][`itemName`]} at $${cart[i][`itemPrice`]}`;
