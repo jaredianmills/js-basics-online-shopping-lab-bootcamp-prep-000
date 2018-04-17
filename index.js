@@ -24,9 +24,3 @@ function viewCart() {
   }
   return `${inYour}${viewArray}`
 }
-
-addToCart('dog')
-addToCart('cat')
-addToCart('wine')
-
-console.log(cart[0][`itemName`])
