@@ -25,9 +25,10 @@ function viewCart() {
         var itemsAndPrices = ` ${cart[i]['itemName']} at $${cart[i]['itemPrice']}`;
         viewArray.push(`${itemsAndPrices}`)
   }
-    var lastItem = viewArray.pop()
-    return `${inYour}${viewArray}, and${lastItem}.`
-  }
+    if (viewArray.length === 1) {
+      return `${inYour}${viewArray}.`
+    }
+    }
 }
 
 addToCart('hat')
@@ -35,3 +36,6 @@ addToCart('hat')
 
 
 console.log(viewCart())
+
+var lastItem = viewArray.pop()
+return `${inYour}${viewArray}, and${lastItem}.`
