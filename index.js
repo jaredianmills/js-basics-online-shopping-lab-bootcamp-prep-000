@@ -70,3 +70,5 @@ addToCart('hat')
 addToCart('egg')
 addToCart('cup')
 console.log(cart)
+
+removeFromCart('egg')
