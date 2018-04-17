@@ -65,3 +65,8 @@ function placeOrder(cardNumber) {
     return orderPlaced;
   }
 }
+
+addToCart('hat')
+addToCart('egg')
+addToCart('cup')
+console.log(cart)
