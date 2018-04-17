@@ -36,6 +36,7 @@ function viewCart() {
 
 addToCart('hat')
 addToCart('ice cream')
+addToCart('tea')
 
 
 
