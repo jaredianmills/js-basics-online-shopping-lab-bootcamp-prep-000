@@ -31,7 +31,7 @@ function viewCart() {
 }
 
 addToCart('hat')
-addToCart('tea')
+
 
 
 console.log(viewCart())
