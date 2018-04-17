@@ -22,4 +22,5 @@ function viewCart() {
   for (let i = 0; i < cart.length; i++) {
     viewArray.push(itemsAndPrices)
   }
+  return `${inYour}${itemsAndPrices}`
 }
