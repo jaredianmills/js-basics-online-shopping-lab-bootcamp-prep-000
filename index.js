@@ -34,7 +34,7 @@ function viewCart() {
     }
 }
 
-addToCart('hat')
+
 
 
 
