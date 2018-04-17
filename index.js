@@ -44,7 +44,9 @@ function total() {
   return sum;
 }
 
-function removeFromCart(item) {}
+function removeFromCart(item) {
+  for 
+}
 
 function placeOrder(cardNumber) {
   if (cardNumber === undefined) {
