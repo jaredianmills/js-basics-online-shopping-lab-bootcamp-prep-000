@@ -22,12 +22,10 @@ function viewCart() {
   var lastItemAndPrice = ` and ${cart[i][`itemName`]} at $${cart[i][`itemPrice`]}`;
   if (cart.length = 0) {
     return "Your shopping cart is empty."
-  } else if (cart.length = 1) {
+  } else {
       for (let i = 0; i < cart.length; i++) {
         viewArray.push(`${itemsAndPrices}`)
   }
     return `${inYour}${itemsAndPrices}.`
-  } else if (cart.length > 1) {
-
-  }
+  } 
 }
