@@ -33,4 +33,4 @@ addToCart('hat')
 addToCart('tea')
 
 
-console.log(getCart())
+console.log(viewCart())
