@@ -28,3 +28,5 @@ function viewCart() {
 addToCart('dog')
 addToCart('cat')
 addToCart('wine')
+
+console.log(viewCart())
