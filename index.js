@@ -26,7 +26,7 @@ function viewCart() {
         viewArray.push(`${itemsAndPrices}`)
   }
     var lastItem = viewArray.pop()
-    return `${inYour}${viewArray}.`
+    return `${inYour}${viewArray} and ${lastItem}.`
   }
 }
 
