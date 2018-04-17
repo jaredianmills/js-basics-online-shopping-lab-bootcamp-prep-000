@@ -18,9 +18,12 @@ function addToCart(item) {
 function viewCart() {
   var inYour = 'In your cart, you have';
   var viewArray = [];
-  for (let i = 0; i < cart.length; i++) {
-    var itemsAndPrices = ` ${cart[i][`itemName`]} at $${cart[i][`itemPrice`]}`;
-    viewArray.push(itemsAndPrices)
+  if (cart.length = 0) {
+    return "Your shopping cart is empty."
+  }
+    for (let i = 0; i < cart.length; i++) {
+      var itemsAndPrices = ` ${cart[i][`itemName`]} at $${cart[i][`itemPrice`]}`;
+      viewArray.push(itemsAndPrices)
   }
   return `${inYour}${viewArray}.`
 }
