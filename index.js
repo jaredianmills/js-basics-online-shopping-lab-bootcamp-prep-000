@@ -27,5 +27,8 @@ function viewCart() {
         viewArray.push(`${itemsAndPrices}`)
   }
     return `${inYour}${itemsAndPrices}.`
-  } 
+  }
 }
+
+addToCart('hat')
+addToCart('tea')
