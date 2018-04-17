@@ -22,7 +22,7 @@ function viewCart() {
     return "Your shopping cart is empty."
   } else {
       for (let i = 0; i < cart.length; i++) {
-        var itemsAndPrices = ` ${cart[i][`itemName`]} at $${cart[i][`itemPrice`]}`;
+        var itemsAndPrices = ` ${cart[1]['itemName']} at $${cart[1]['itemPrice']}`;
         viewArray.push(`${itemsAndPrices}`)
   }
     return `${inYour}${viewArray}.`
