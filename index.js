@@ -24,3 +24,9 @@ function viewCart() {
   }
   return `${inYour}${viewArray}`
 }
+
+addToCart('dog')
+addToCart('cat')
+addToCart('wine')
+
+console.log(viewCart())
