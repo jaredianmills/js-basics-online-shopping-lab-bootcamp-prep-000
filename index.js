@@ -23,4 +23,6 @@ function viewCart() {
   }
 }
 
-var itemsInCart
+var itemsAndPrices = ` ${cart[0]}`
+
+var test = {One: 1, Two: 2, Three: 3}
