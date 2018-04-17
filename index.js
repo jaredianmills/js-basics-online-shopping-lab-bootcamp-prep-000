@@ -16,6 +16,9 @@ function addToCart(item) {
 }
 
 function viewCart() {
+  var inYour = 'In your cart, you have'
   var viewArray = []
-  for (let i = 0; i < cart.length; i++) {}
+  for (let i = 0; i < cart.length; i++) {
+
+  }
 }
