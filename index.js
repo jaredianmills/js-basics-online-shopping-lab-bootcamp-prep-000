@@ -22,7 +22,7 @@ function viewCart() {
     var itemsAndPrices = ` ${cart[i][itemName]} at ${cart[i][itemPrice]}}`;
     viewArray.push(itemsAndPrices)
   }
-  return `${inYour}${itemsAndPrices}`
+  return `${inYour}${viewArray}`
 }
 
 addToCart('dog')
