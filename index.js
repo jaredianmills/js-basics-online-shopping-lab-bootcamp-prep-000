@@ -34,4 +34,6 @@ function viewCart() {
     }
 }
 
-function total()
+function total() {
+  for (let i = 0; i < cart.length; i++)
+}
