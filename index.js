@@ -33,11 +33,3 @@ function viewCart() {
     }
     }
 }
-
-
-
-
-
-
-
-console.log(viewCart())
