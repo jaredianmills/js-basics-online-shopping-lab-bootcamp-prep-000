@@ -33,3 +33,5 @@ function viewCart() {
     }
     }
 }
+
+function total()
