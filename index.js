@@ -38,6 +38,5 @@ function total() {
   var sum = []
   for (let i = 0; i < cart.length; i++) {
     sum.push(cart[i]['itemPrice'])
-
   }
 }
