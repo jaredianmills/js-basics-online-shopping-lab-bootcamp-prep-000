@@ -33,4 +33,4 @@ addToCart('hat')
 addToCart('tea')
 
 
-console.log(` ${cart[i][`itemName`]} at $${cart[i][`itemPrice`]}`;)
+console.log(` ${cart[1][`itemName`]} at $${cart[1][`itemPrice`]}`;)
