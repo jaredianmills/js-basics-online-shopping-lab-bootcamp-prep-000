@@ -29,6 +29,8 @@ function viewCart() {
   }
 }
 
+addToCart('hat')
+addToCart('tea')
 
 
-console.log(viewCart())
+console.log(` ${cart[i][`itemName`]} at $${cart[i][`itemPrice`]}`;)
