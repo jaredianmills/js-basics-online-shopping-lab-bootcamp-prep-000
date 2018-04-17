@@ -30,7 +30,6 @@ function viewCart() {
     } else {
       var lastItem = viewArray.pop()
       return `${inYour}${viewArray}, and${lastItem}.`
-
     }
     }
 }
