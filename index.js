@@ -20,6 +20,6 @@ function viewCart() {
   var viewArray = [];
   var itemsAndPrices = ` ${cart[itemName] at ${cart[itemPrice]}}`;
   for (let i = 0; i < cart.length; i++) {
-    viewArray.push(` ${cart}`)
+    viewArray.push(itemsAndPrices)
   }
 }
