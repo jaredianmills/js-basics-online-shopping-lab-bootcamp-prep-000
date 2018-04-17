@@ -16,11 +16,10 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  var inYour = 'In your cart, you have'
-  var viewArray = []
+  var inYour = 'In your cart, you have';
+  var viewArray = [];
+  var itemsAndPrices = ` ${cart[itemName] at ${cart[itemPrice]}}`;
   for (let i = 0; i < cart.length; i++) {
     viewArray.push(` ${cart}`)
   }
 }
-
-var itemsAndPrices = ` ${cart[itemName] at ${cart[itemPrice]}}`
